@@ -1,6 +1,6 @@
 require 'robot_runner'
 
-RSpec.describe 'RobotRunner' do
+RSpec.describe 'RobotRunsner' do
   describe 'go forward!' do
     let(:input) { "PLACE 0,0,NORTH
 MOVE
