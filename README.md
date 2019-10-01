@@ -30,7 +30,7 @@ Make sure you have Ruby 2.3 installed in your machine. If you need help installi
 
 ## Running the app
 
-    `$ ruby main.rb`
+    `$ ruby lib/toyrobot.rb`
 
 ## Running the tests
 Code quality and verification is tested using [RSpec](http://rspec.info/).
