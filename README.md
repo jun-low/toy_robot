@@ -5,7 +5,7 @@ This exercise is intended to practice about Test Driven Development (TDD).
 
 ## Getting Started
 A simulation of a toy robot moving on a square tabletop, of dimensions 5 units x 5 units. 
-See [Specification]({#specification}) below for details.
+See [Specification](https://github.com/jun-low/toy_robot/blob/master/README.md#specification) below for details.
 
 ### Prerequisites
 Make sure you have Ruby 2.3 installed in your machine. If you need help installing Ruby, take a look at the [official installation guide](https://www.ruby-lang.org/en/documentation/installation/).
@@ -38,7 +38,7 @@ Code quality and verification is tested using [RSpec](http://rspec.info/).
     `$ bundle exec rspec`
   
   
-## Specification {#specification}
+## Specification
 ### Description
 - The application is a simulation of a toy robot moving on a square tabletop, of dimensions 5 units x 5 units.
 - There are no other obstructions on the table surface.
