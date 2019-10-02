@@ -12,6 +12,16 @@ def report
   }
  end
 
+def execute
+  puts Robot.report
+end
+
+def parse(command)
+  if command =~ /^PLACE\s+\d+\s*,\s*\d+\s*,\s*(NORTH|SOUTH|EAST|WEST)$/
+    command, x, y, direction = command.gsub(',', ' ').split
+  end
+end
+
 def move()
   if @direction == 'north'
     @location[1] += 1
