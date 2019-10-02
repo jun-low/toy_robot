@@ -13,7 +13,7 @@ def report
  end
 
 def execute
-  puts Robot.report
+  puts self.report
 end
 
 def parse(command)
