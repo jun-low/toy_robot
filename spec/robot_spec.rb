@@ -2,21 +2,21 @@ require 'robot'
 
 # Are you setup?
 RSpec.describe 'Robot' do
-  describe 'set up' do
-    it 'should set up and not move when there is no argument' do
+  describe 'Set up' do
+    it 'robot should set up and not move when there is no commands' do
       robot = Robot.new
       expect(robot.report).to eq({"location" => [0, 0], "direction" => "north"})
     end
   end
 
-  describe 'move' do
-    it 'should move to north' do
+  describe 'Move' do
+    it 'robot should move to the north' do
       robot = Robot.new
       robot.move()
       expect(robot.report).to eq({"location" => [0, 1], "direction" => "north"})
     end
 
-    it 'should move to north 2 times' do
+    it 'robot should move to north 2 times' do
       robot = Robot.new
       robot.move()
       robot.move()
@@ -24,8 +24,8 @@ RSpec.describe 'Robot' do
     end
   end
 
-  describe 'turn' do
-    it 'should turn to east' do
+  describe 'Turn' do
+    it 'robot should turn to the east' do
       robot = Robot.new
       robot.turn("right")
       expect(robot.report).to eq({"location" => [0, 0], "direction" => "east"})
