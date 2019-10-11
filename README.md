@@ -1,6 +1,6 @@
 # Toy Robot Simulator
 
-The Toy Robot exercise was originally developed by Jon Eaves. He explains the reasons on [this](https://joneaves.wordpress.com/2014/07/21/toy-robot-coding-test/) blog post.
+The Toy Robot exercise was originally developed by Jon Eaves. He explains the reasons on this [blog post](https://joneaves.wordpress.com/2014/07/21/toy-robot-coding-test/).
 This exercise is intended to practice about Test Driven Development (TDD).
 
 ## Getting Started
@@ -16,7 +16,7 @@ Make sure you have Ruby 2.5 installed in your machine. If you need help installi
 
     `$ gem install bundler`
 
-2. Input commands manually on command line:
+2. Input commands on command line:
 
     `$ git clone git@github.com:jun-low/toy_robot.git`
 
