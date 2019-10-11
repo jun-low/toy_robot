@@ -1,10 +1,10 @@
 # Toy Robot Simulator
 
-The Toy Robot exercise was originally developed by Jon Eaves. He explains why he did it in [here](https://joneaves.wordpress.com/2014/07/21/toy-robot-coding-test/).
+The Toy Robot exercise was originally developed by Jon Eaves. He explains the reasons on [this] blog post. (https://joneaves.wordpress.com/2014/07/21/toy-robot-coding-test/).
 This exercise is intended to practice about Test Driven Development (TDD).
 
 ## Getting Started
-A simulation of a toy robot moving on a square tabletop, of dimensions 5 units x 5 units. 
+A simulation of a toy robot moving on a table, of dimensions 5 units x 5 units. 
 See [Specification](https://github.com/jun-low/toy_robot/blob/master/README.md#specification) below for details.
 
 ### Prerequisites
