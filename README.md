@@ -28,10 +28,6 @@ Make sure you have Ruby 2.5 installed in your machine. If you need help installi
 
     `$ bundle install`
 
-## Running the app
-
-    `$ ruby lib/toyrobot.rb`
-
 ## Running the tests
 Code quality and verification is tested using [RSpec](http://rspec.info/).
 
