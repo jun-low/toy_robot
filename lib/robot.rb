@@ -5,40 +5,30 @@ class Robot
     @direction = direction
   end
 
-def report
-  {
-    "location" => @location,
-    "direction" => @direction
-  }
- end
-
-def execute
-  puts self.report
-end
-
-def parse(command)
-  if command =~ /^PLACE\s+\d+\s*,\s*\d+\s*,\s*(NORTH|SOUTH|EAST|WEST)$/
-    command, x, y, direction = command.gsub(',', ' ').split
+  def position
+    {
+      "location" => @location,
+      "direction" => @direction
+    }
   end
-end
 
-def move()
-  if @direction == 'north'
-    @location[1] += 1
-  elsif
-    @location[0] += 1
+  def move()
+    if @direction == 'north'
+      @location[1] += 1
+    elsif
+      @location[0] += 1
+    end
   end
- end
 
-def turn(left_or_right)
-   if left_or_right == 'right' && @direction == 'north'
-    @direction = 'east'
-  elsif left_or_right == 'right' && @direction == 'east'
-    @direction = 'south'
-  elsif left_or_right == 'right' && @direction == 'south'
-    @direction = 'west'
-  elsif left_or_right == 'right' && @direction == 'west'
-    @direction = 'north'
+  def turn(left_or_right)
+    if left_or_right == 'right' && @direction == 'north'
+      @direction = 'east'
+    elsif left_or_right == 'right' && @direction == 'east'
+      @direction = 'south'
+    elsif left_or_right == 'right' && @direction == 'south'
+      @direction = 'west'
+    elsif left_or_right == 'right' && @direction == 'west'
+      @direction = 'north'
+    end
   end
- end
 end
